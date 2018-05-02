@@ -5,9 +5,12 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "CPP_PackTut",
+			"Name": "FPSGame",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	]
 }
